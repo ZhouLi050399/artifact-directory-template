@@ -2,13 +2,9 @@ Title:
 COVID-19 Sentiment and Daily ases Analysis on Social Media
 
 Abstract:
-With the unexpected impact of Covid-19, drastic changes were induced to people’s health, lifestyle, and mentality. During the research last quarter, we noticed that
-the majority of posts in our Twitter dataset have strong emotions and sentiments. Therefore, this project starts with the investigation by using the “covid-19 
-tweets” dataset obtained from the Panacea Lab and sentiment analysis on its tweet text. Since this tweets dataset is without sentiment labels, from the Kaggle 
-website, we found a dataset that contains 1.6 million training data with text and sentiment labels attributes. In the methodology part, we trained the default 
-logistic regression model as the baseline model, and the SVC model as the advanced model to predict sentiment labels of “covid-19 tweets” dataset. 
-
-In this project, we trained our SVC tweet sentiment model using a dataset that contains 1.6 million data with text and sentiment labels from Kaggle. The model is 
-then used to predict daily sentiment scores in the time period same as our daily cases data. After that, we detrended the daily case data and performed multiple 
-analyses including correlation, cointegration test, and Fourier transformation to study its relationship with the sentiment score.
+With the unexpected impact of Covid-19, drastic changes were induced to people’s health, lifestyle, and mentality. During the research last quarter, we noticed that 
+the majority of posts in our Twitter dataset have strong emotions and sentiments. In this project, we trained our SVC tweet sentiment model using a dataset that 
+contains 1.6 million data with text and sentiment labels from Kaggle. The trained model is used to predict sentiment scores on the daily tweets sampled from the 
+Panacea Lab dataset. After that, we detrended the daily case data and performed multiple analyses including correlation, cointegration test, and Fourier 
+transformation to study its relationship with the sentiment score.
 

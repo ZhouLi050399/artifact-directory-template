@@ -1,5 +1,12 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+COVID-19 Sentiment and Daily ases Analysis on Social Media
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Covid-19 changed everyone, from the way we interact, to how we work, and our methods of communication, especially through social media. 
+Throughout the studying of this quarter, we noticed that there are numbers of posts in our Twitter dataset that are related to the topic 
+of covid-19 having some strong emotions and sentiments. Therefore, this project starts with the investigation by using the “covid-19 tweets” 
+dataset obtained from the Panacea Lab and performing sentiment analysis on its tweet text. Since this tweets dataset is without sentiment labels, 
+from the Kaggle website, we finally found a dataset that contains 1.6 million training data with text and sentiment labels attributes. 
+In the methodology part, we trained the default logistic regression model as the baseline model, and the SVC model as the advanced model to predict 
+sentiment labels of “covid-19 tweets” dataset. Then, we detrended the daily case data and performed multiple analyses including correlation and Fourier
+transformation to study its relationship with the sentiment score.
